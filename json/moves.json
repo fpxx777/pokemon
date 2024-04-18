@@ -1,0 +1,126 @@
+[
+    {
+        "nombre": "Rayo Solar",
+        "tipo": "Planta",
+        "clase": "Ataque Especial",
+        "potencia": 120,
+        "precision": 100,
+        "prioridad": 0,
+        "pp": 10,
+        "efecto": "El Pokémon que utiliza este movimiento concentra la energía solar un turno, para liberar un rayo que causa daño en el siguiente turno."
+    },
+    {
+        "nombre": "Somnifero",
+        "tipo": "Planta",
+        "clase": "Efecto",
+        "potencia": 0,
+        "precision": 75,
+        "prioridad": 0,
+        "pp": 15,
+        "efecto": "Somnífero duerme al objetivo. No afecta a Pokémon con la habilidad insomnio o espíritu vital."
+    },
+    {
+        "nombre": "Sintesis",
+        "tipo": "Planta",
+        "clase": "Efecto",
+        "potencia": 0,
+        "precision": 100,
+        "prioridad": 0,
+        "pp": 5,
+        "efecto": "Síntesis es un movimiento que hace que el usuario recupere PS. Si el usuario tiene los PS al máximo, el movimiento fallará. La cantidad depende del momento del día y del tiempo atmosférico"
+    },
+    {
+        "nombre": "Latigazo",
+        "tipo": "Planta",
+        "clase": "Ataque",
+        "potencia": 120,
+        "precision": 85,
+        "prioridad": 0,
+        "pp": 10,
+        "efecto": "Latigazo causa daño y no tiene ningún efecto secundario."
+    },
+    {
+        "nombre": "Lanzallamas",
+        "tipo": "Fuego",
+        "clase": "Ataque Especial",
+        "potencia": 90,
+        "precision": 100,
+        "prioridad": 0,
+        "pp": 15,
+        "efecto": "Lanzallamas causa daño y tiene una probabilidad del 10% de quemar al objetivo. Lanzallamas tiene una potencia de 90."
+    },
+    {
+        "nombre": "Infierno",
+        "tipo": "Fuego",
+        "clase": "Ataque Especial",
+        "potencia": 100,
+        "precision": 50,
+        "prioridad": 0,
+        "pp": 5,
+        "efecto": "Infierno causa daño y si acierta, siempre quema al objetivo."
+    },
+    {
+        "nombre": "Garra Dragon",
+        "tipo": "Dragon",
+        "clase": "Ataque",
+        "potencia": 80,
+        "precision": 100,
+        "prioridad": 0,
+        "pp": 15,
+        "efecto": "Garra dragón causa daño y no tiene ningún efecto secundario."
+    },
+    {
+        "nombre": "Envite Igneo",
+        "tipo": "Fuego",
+        "clase": "Ataque",
+        "potencia": 120,
+        "precision": 100,
+        "prioridad": 0,
+        "pp": 15,
+        "efecto": "Envite ígneo causa daño y tiene una probabilidad del 10% de quemar al objetivo. A causa del daño de retroceso, el usuario pierde 1/3 de los PS restados al objetivo."
+    },
+    {
+        "nombre": "Hidrobomba",
+        "tipo": "Agua",
+        "clase": "Ataque Especial",
+        "potencia": 110,
+        "precision": 80,
+        "prioridad": 0,
+        "pp": 5,
+        "efecto": "Hidrobomba causa daño y no tiene ningún efecto secundario. Hidrobomba tiene una potencia de 110."
+    },
+    {
+        "nombre": "Defensa Ferrea",
+        "tipo": "Acero",
+        "clase": "Efecto",
+        "potencia": 0,
+        "precision": 100,
+        "prioridad": 0,
+        "pp": 15,
+        "efecto": "Defensa férrea sube dos niveles la defensa del usuario."
+    },
+    {
+        "nombre": "Danza Lluvia",
+        "tipo": "Agua",
+        "clase": "Efecto",
+        "potencia": 0,
+        "precision": 100,
+        "prioridad": 0,
+        "pp": 5,
+        "efecto": "Danza lluvia es un movimiento de cambio de tiempo atmosférico que consiste en provocar una intensa lluvia que dura 5 turnos. Los efectos son:
+        Aumenta la potencia de los movimientos de tipo agua en un 50%.
+        Disminuye la potencia de los movimientos de tipo fuego y de rayo solar en un 50%.
+        Aumenta la precisión del movimiento trueno al 100%.
+        Los movimientos síntesis, sol matinal y luz lunar hacen que el usuario recupere el 25% de los PS totales en vez del 50% habitual."
+    },
+    {
+        "nombre": "Envite Acuatico",
+        "tipo": "Agua",
+        "clase": "Ataque",
+        "potencia": 120,
+        "precision": 100,
+        "prioridad": 0,
+        "pp": 16,
+        "efecto": "Envite acuático ahora tiene una potencia de 120 y causa daño de retroceso igual a 1/3 de los PS restados al objetivo."
+    }
+]

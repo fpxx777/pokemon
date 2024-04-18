@@ -1,0 +1,64 @@
+[
+    {
+        "nombre": "Venusaur",
+        "tipo": [
+            "Planta",
+            "Veneno"
+        ],
+        "ataques": [
+            "Rayo Solar",
+            "Somnifero",
+            "Sintesis",
+            "Latigazo"
+        ],
+        "estadisticas": {
+            "HP": 80,
+            "Ataque": 82,
+            "Defensa": 83,
+            "Velocidad": 80,
+            "Ataque Especial": 100,
+            "Defensa Especial": 100
+        }
+    },
+    {
+        "nombre": "Charizard",
+        "tipo": [
+            "Fuego",
+            "Volador"
+        ],
+        "ataques": [
+            "Lanzallamas",
+            "Infierno",
+            "Garra Dragon",
+            "Envite Igneo"
+        ],
+        "estadisticas": {
+            "HP": 78,
+            "Ataque": 84,
+            "Defensa": 78,
+            "Velocidad": 100,
+            "Ataque Especial": 109,
+            "Defensa Especial": 85
+        }
+    },
+    {
+        "nombre": "Blastoise",
+        "tipo": [
+            "Agua"
+        ],
+        "ataques": [
+            "Hidrobomba",
+            "Defensa Ferrea",
+            "Danza Lluvia",
+            "Envite Acuatico"
+        ],
+        "estadisticas": {
+            "HP": 789,
+            "Ataque": 83,
+            "Defensa": 100,
+            "Velocidad": 78,
+            "Ataque Especial": 85,
+            "Defensa Especial": 78
+        }
+    }
+]
