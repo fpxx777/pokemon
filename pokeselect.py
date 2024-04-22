@@ -9,16 +9,18 @@ def pokeselect():
     for num in range(len(pokemon)):
         time.sleep(1)
         print('------------------------------')
-        print(pokemon[num]["nombre"].upper())
+        print(pokemon[num].nombre.upper())
         time.sleep(0.5)
         sprite(num)
-        if len(pokemon[num]["tipo"]) == 2:
-            print(f'Tipo: {pokemon[num]["tipo"][0]} y {pokemon[num]["tipo"][1]}')
+        if len(pokemon[num].tipo) == 2:
+            print(f'Tipo: {pokemon[num].tipo[0]} y {pokemon[num].tipo[1]}')
         else:
-            print(f'TIPO: {pokemon[num]["tipo"][0]}')
+            print(f'TIPO: {pokemon[num].tipo[0]}')
         print("MOVIMIENTOS:")
-        for move in pokemon[num]["ataques"]:
-                print(f'{move},')
+        for move in pokemon[num].ataques:
+                time.sleep(0.6)
+                print(f' {move},')
         time.sleep(1)
-        for stats in pokemon[num]["estadisticas"]:
-            print(stats, ':', pokemon[num]["estadisticas"][stats])
+        print(f'{pokemon[num].stats}')
+
+pokeselect()
