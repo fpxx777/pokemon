@@ -107,11 +107,7 @@
         "precision": 100,
         "prioridad": 0,
         "pp": 5,
-        "efecto": "Danza lluvia es un movimiento de cambio de tiempo atmosférico que consiste en provocar una intensa lluvia que dura 5 turnos. Los efectos son:
-        Aumenta la potencia de los movimientos de tipo agua en un 50%.
-        Disminuye la potencia de los movimientos de tipo fuego y de rayo solar en un 50%.
-        Aumenta la precisión del movimiento trueno al 100%.
-        Los movimientos síntesis, sol matinal y luz lunar hacen que el usuario recupere el 25% de los PS totales en vez del 50% habitual."
+        "efecto": "Danza lluvia es un movimiento de cambio de tiempo atmosférico que consiste en provocar una intensa lluvia que dura 5 turnos. Los efectos son: Aumenta la potencia de los movimientos de tipo agua en un 50%. Disminuye la potencia de los movimientos de tipo fuego y de rayo solar en un 50%. Aumenta la precisión del movimiento trueno al 100%. Los movimientos síntesis, sol matinal y luz lunar hacen que el usuario recupere el 25% de los PS totales en vez del 50% habitual."
     },
     {
         "nombre": "Envite Acuatico",
