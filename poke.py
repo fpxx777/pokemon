@@ -63,4 +63,3 @@ blastoise = Pokemon(
 )
 pokemon = [venasaur, charizard, blastoise]
 
-print(venasaur.ataques)

@@ -20,6 +20,5 @@ data = jsoncreate()
 
 movimientos = [Movimiento(**movimiento) for movimiento in data]
 
-print(movimientos[0].nombre)
 
 
