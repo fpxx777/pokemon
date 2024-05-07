@@ -4,6 +4,7 @@ from random import randint
 #Realiza el calculo para quitar vida al oponente
 
 def ataque(pokemon,atak, oponent, ):
+    print(oponent.stats.hp)
     bonus = 1
     variabilidad = random.randint(85, 100)
     potencia = atak.potencia
@@ -16,4 +17,5 @@ def ataque(pokemon,atak, oponent, ):
         ataque = pokemon.stats.ataque
         defensa = oponent.stats.defensa
     total = (0.01 * bonus) * efectividad * variabilidad * (((((0.2 * nivel) + 1) * ataque * potencia) / (25 * defensa)) + 2)
-    print(round(total))
+    oponent.stats.hp = oponent.stats.hp - round(total)
+    print(oponent.stats.hp)

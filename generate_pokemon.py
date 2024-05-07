@@ -9,3 +9,7 @@ def generate():
     else:
         num = 2
     return num
+
+def random_generate():
+    num = random.random()
+    return num

@@ -23,16 +23,20 @@ def pokeselect():
                 print(f' {move.nombre},')
         time.sleep(1)
         print(f'{pokemon[num].stats}')
-    select = input("Y tu eleccion es?:")
-    if select.lower() == "venasaur":
-        select = 0
-    elif select.lower() == "charizard":
-        select = 1
-    elif select.lower() == "blastoise":
-        select = 2
-    else:
-        print('Ese Pokemon aun no esta en el juego D:')
-        return
+    seleccion = False
+    while (not seleccion):
+        select = input("Y tu eleccion es?:")
+        if select.lower() == "venasaur" or select == "1":
+            select = 0
+            seleccion = True
+        elif select.lower() == "charizard" or select == "2":
+            select = 1
+            seleccion = True
+        elif select.lower() == "blastoise" or select == "3":
+            select = 2
+            seleccion = True
+        else:
+            print('Ese Pokemon aun no esta en el juego D:')
     print(f"Has seleccionado a {pokemon[select].nombre}!!")
     return select
 

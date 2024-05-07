@@ -1,32 +1,24 @@
-import random
 from poke import pokemon
 from sprite import sprite
 import time
-from generate_pokemon import generate
+from generate_pokemon import random_generate
+from battle_start import pelea
 
-def pelea(select):
-    for a in range(10):
-        print()
-    num = generate()
-    print(f'Un {pokemon[num].nombre} salvaje ah aparecido!!')
-    print()
-    sprite(num)
-    print()
-    elec = input("Atacar o huir? : ")
-    if elec.lower() == "huir":
-        num2 = random.random()
-        if num2 > 0.5:
-            print("Lograste escapar!!")
-            return
-        else:
-            print("No pudiste escapar, toca peleear!!")
-    print()
-    print("Que comienza el combate!!")
-    print()
-    print()
+def combate(select):
     print("MOVIMIENTOS:")
     for move in pokemon[select].ataques:
-            print(f'{move.posicion_json}. {move.nombre},')
-    print()
-    move_select = input('Que ataque quieres usar?: ')
-pelea(2)
+        time.sleep(0.6)
+        print(f' {move.posicion_json}. {move.nombre}')
+    seleccion = False
+    while(not seleccion):
+        response = input("Que movimiento quieres usar?: ")
+        for move in pokemon[select].ataques:
+            if response == str(move.posicion_json) or response.lower() == move.nombre.lower():
+                seleccion = True
+                response = move.posicion_json
+                break
+        if seleccion == False:
+            print("Ese movimiento no existe!")
+    print(response)
+if __name__ == "__main__":
+    combate(2)

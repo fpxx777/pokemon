@@ -18,7 +18,7 @@ class Ataques:
                 self.nombre = nombre
                 self.posicion_json = posicion
         def __repr__(self):
-                return f"Nombre: {str(self.nombre)}, Posicion en JSON: {str(self.posicion_json)}"
+                return f"{str(self.nombre)}"
 
 class Pokemon:
     def __init__(self, nombre, tipo, ataques, estadisticas):
@@ -70,4 +70,4 @@ pokemon = [venasaur, charizard, blastoise]
 #/////////////////////////////////////////////////////////////////////////////////////
 if __name__ == "__main__":
     print(venasaur.ataques[0].posicion_json)
-    print(venasaur.stats)
+    print(venasaur.stats.velocidad)
