@@ -1,5 +1,7 @@
 import json
 
+#Almacena los movimientos dados por el JSON
+
 class Movimiento:
     def __init__(self, nombre, tipo, clase, potencia, precision, prioridad, pp, efecto):
         self.nombre = nombre
@@ -20,5 +22,9 @@ data = jsoncreate()
 
 movimientos = [Movimiento(**movimiento) for movimiento in data]
 
+
+#/////////////////////////////////////////////////////////////////////////////////////
+if __name__ == "__main__":
+    print(movimientos[0].clase)
 
 

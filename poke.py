@@ -1,3 +1,5 @@
+#Almacena los pokemon disponibles
+
 class Stats:
     def __init__(self, stats):
         self.hp = stats[0]
@@ -47,7 +49,7 @@ charizard = Pokemon(
         Ataques("Garra Dragon", 6),
         Ataques("Envite Igneo", 7),
     ],
-    [78, 84, 78, 100, 109, 85],
+    [78, 84, 78, 109, 85, 100],
 )
 
 blastoise = Pokemon(
@@ -59,7 +61,13 @@ blastoise = Pokemon(
         Ataques("Danza Lluvia", 10),
         Ataques("Envite Acuatico", 11),
     ],
-    [79, 83, 100, 78, 85, 78],
+    [79, 83, 100, 85, 105, 78],
 )
 pokemon = [venasaur, charizard, blastoise]
 
+
+
+#/////////////////////////////////////////////////////////////////////////////////////
+if __name__ == "__main__":
+    print(venasaur.ataques[0].posicion_json)
+    print(venasaur.stats)

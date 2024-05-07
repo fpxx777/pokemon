@@ -3,6 +3,7 @@ from poke import pokemon
 from sprite import sprite
 import time
 
+#Realiza la seleccion de los pokemon
 
 def pokeselect():
     print('Selecciona a tu Pokemon!')
@@ -35,4 +36,6 @@ def pokeselect():
     print(f"Has seleccionado a {pokemon[select].nombre}!!")
     return select
 
+if __name__ == "__main__":
+    pokeselect()
 
